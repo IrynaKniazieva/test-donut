@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <header>
+        <section>
+        <div class="container">
+            <nav class="container-nav">
+                <logo >
+                    <a class="logo" href="./index.html">
+                        <img class="logo" src="./images/logo.png"
+                        alt="logo"
+                        width="96"
+                        height="44.08">  
+                    </a>
+                </logo>
+                <button 
+                type="button" 
+                class="menu-button is-open"
+                aria-expanded="false"
+                aria-controls="menu-container"
+                data-menu-button
+                >
+                  <svg 
+                  width="24" 
+                  height="16" 
+                  aria-label="Переключатель мобильного меню">
+                    
+                    <use class="menu-button__icon-menu" href="./images/icons.svg#icon-menu"> </use>
+                    <use class="menu-button__icon-close" href="./images/icons.svg#icon-close-menu"></use>
+                  </svg>
+                </button>
+            </nav>
+            
+            <div class="menu-container" id="menu-container" data-menu >
+            <div class="menu">  
+                <ul class="navigation-group">
+                  <li class="navigation-group__item">
+                    <a href="" class="navigation-group__link ">About us</a>
+                  </li>
+                  <li class="navigation-group__item">
+                    <a href="" class="navigation-group__link">Program</a>
+                  </li>
+                  <li class="navigation-group__item">
+                    <a href="" class="navigation-group__link">Reviews</a>
+                  </li>
+                </ul>
+
+            </div>
+            </div>
+            <h1 class="title">
+                Donut Masterclass with the Donut King
+            </h1>
+            <h2 class="subtitle">
+                Hosted by Eva Green
+            </h2>
+        </div>
+    </section>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./js/menu.js"> </script>   
+</body>
+</html>
