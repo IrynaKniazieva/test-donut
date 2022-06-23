@@ -19,23 +19,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <section>
+    <header >
+       <div class="page-header">
         <div class="container">
             <nav class="container-nav">
                 <logo >
-                    <a class="logo" href="./index.html">
-                        <img class="logo" src="./images/logo.png"
-                        alt="logo"
-                        width="96"
-                        height="44.08">  
+                    <a class="logo" href="./index.html">logo  
                     </a>
                 </logo>
                 <button 
                 type="button" 
                 class="menu-button is-open"
                 aria-expanded="false"
-                aria-controls="menu-container"
+               
                 data-menu-button
                 >
                   <svg 
@@ -47,7 +43,7 @@
                     <use class="menu-button__icon-close" href="./images/icons.svg#icon-close-menu"></use>
                   </svg>
                 </button>
-                <div class="menu-container" id="menu-container" data-menu >
+                <div class="menu-container is-open" id="menu-container" data-menu>
                   <div class="menu">  
                       <ul class="navigation-group">
                         <li class="navigation-group__item">
@@ -62,8 +58,11 @@
                       </ul>
       
                   </div>
-                  </div>
+                </div>
             </nav>
+              </nav>
+         </div>
+      </div>
             
             
             <h1 class="title">
@@ -73,10 +72,13 @@
                 Hosted by Eva Green
             </h2>
         </div>
-    </section>
+   
     </header>
     <main></main>
     <footer></footer>
+    
+
+    </div>
     <script src="./js/menu.js"> </script>   
 </body>
 </html>
