@@ -67,7 +67,7 @@ transform: translate(-50%, -50%) scale(0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: tomato;
+  
 }
 
 /* ховер и фокус при наведении на крестик */
@@ -136,6 +136,57 @@ transform: translate(-50%, -50%) scale(0.9);
 
 }
 
+.person-info__name {
+  text-align: center;
+}
+
+.person-info__role {
+  text-align: center;
+}
+
+
+.list-social {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.link-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+ 
+  color: var(--primary-text-color);
+
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.list-social .item-social {
+  margin-right: 10px;
+}
+
+.list-social .item-social:last-child {
+  margin-right: 0;
+}  
+
+.link-social:hover,
+.link-social:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.icons-social {
+  fill: currentColor;
+     
+}
 
 
 
