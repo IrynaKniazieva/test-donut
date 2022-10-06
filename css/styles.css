@@ -32,29 +32,30 @@ transform: translate(-50%, -50%) scale(0.9);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: scroll;
   
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .modal-wrapper {
-    max-width: 450px;
+    max-width: 280px;
     max-height: 600px;
     width: 100%;
     height: 100%;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .modal-wrapper {
-    width: 528px;
-    height: 581px;
+    width: 704px;
+    height: 522px;
   }
 }
 
 .modal-wrapper__button {
   position: absolute;
-  top: 8px;
-  right: 4px;
+  top: 10px;
+  right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,32 +63,10 @@ transform: translate(-50%, -50%) scale(0.9);
   cursor: pointer;
   width: 30px;
   height: 30px;
-  background: var(--white-color);
+  background: white;
   border-radius: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-
+  border: 1px solid rgba(255, 107, 1, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
-
-/* ховер и фокус при наведении на крестик */
-/* 
-.modal-wrapper__icon:hover,
-.modal-wrapper__icon:focus {
-  fill: var(--accent-color);
-} */
-
-@media screen and (max-width: 1199px) {
-  .modal-form {
-    max-width: 450px;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .modal-form {
-    width: 528px;
-  }
 }
 
 .modal-title {
@@ -106,44 +85,69 @@ transform: translate(-50%, -50%) scale(0.9);
   color: black;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal-title {
     margin-right: 40px;
     margin-left: 40px;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .modal-title {
-    line-height: 1.15;
+.team-container{
+max-width: 704px;
+min-width: 280px;
+}
+
+.team-list {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+display: flex;
+flex-wrap: wrap;
+padding: 30px;
+margin: 0;
   }
 }
 
-.person {
+.team {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-bottom: 30px;
   background-color: #f7f5ec;
-  width: 400px;
-  margin: auto;
+  width: 250px;
   padding: 15px;
 }
 
-.person-photo__img {
+@media screen and (min-width: 768px) {
+  .team {
+    display: flex;
+    width: calc(50% - 30px);
+  }
+}
+
+.team-photo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.team-photo__img {
   border-radius: 50%;
-
+  width: 120px;
+  height: 120px;
 }
 
-.person-info__name {
+.team-info__name {
   text-align: center;
 }
 
-.person-info__role {
+.team-info__role {
   text-align: center;
 }
-
 
 .list-social {
   padding: 0;
@@ -151,6 +155,7 @@ transform: translate(-50%, -50%) scale(0.9);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 250px;
 }
 
 
@@ -159,14 +164,8 @@ transform: translate(-50%, -50%) scale(0.9);
   align-items: center;
   justify-content: center;
   width: 44px;
-  height: 44px;
- 
-  color: var(--primary-text-color);
-
-  border-radius: 50%;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  height: 44px; 
+  color: black; 
 }
 
 .list-social .item-social {
@@ -177,16 +176,16 @@ transform: translate(-50%, -50%) scale(0.9);
   margin-right: 0;
 }  
 
-.link-social:hover,
-.link-social:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+.link-social:hover
+ {
+  color: tomato;
 }
 
 .icons-social {
-  fill: currentColor;
-     
+  fill: currentColor;    
 }
+
+
 
 
 

@@ -28,95 +28,411 @@
     <main></main>
 
     <footer>
-      <button type="button" class="button button-team" data-modal-open>Наша команда</button>
+      <button type="button" class="button button-team" data-modal-open>OUR TEAM</button>
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal-wrapper">
-          <button class="modal-wrapper__button" data-modal-close> 
+          <button class="modal-wrapper__button" data-modal-close>
             <svg class="modal-wrapper__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
           </button>
-          <b class="modal-title">Наша команда <br> project-team_4</b>
-          <div class="person">
-            <div class="person-photo">
-              <img class="person-photo__img" src="./images/person-1.jpg" alt="photo person-1">
-            </div>
-            <div class="person-info">
-              <p class="person-info__name">person-1</p>
-              <p class="person-info__role">section</p>
-              <ul class="list-social">
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Instagram">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Twitter">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Facebook">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Linkedin">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                    </a>
-                </li>
-            </ul>
-            </div>
-          </div>
+          <h2 class="modal-title">OUR TEAM</h2>
 
-          <div class="person">
-            <div class="person-photo">
-              <img class="person-photo__img" src="./images/person-1.jpg" alt="photo person-1">
-            </div>
-            <div class="person-info">
-              <p class="person-info__name">person-2</p>
-              <p class="person-info__role">section</p>
-              <ul class="list-social">
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Instagram">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Twitter">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Facebook">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="item-social">
-                    <a class="link-social" href="" aria-label="иконка Linkedin">
-                    <svg class="icons-social" width="20" height="20">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                    </a>
-                </li>
+          <div class="team-container">
+            <ul class="team-list">
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo oleg">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">OLEG</p>
+                  <p class="team-info__role">Team lead<br>Developer</br></p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo ivan">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">IVAN</p>
+                  <p class="team-info__role">Scrum Master<br>Developer</br></p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo nadia">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">NADIA</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo myroslav">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">MYROSLAV</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo vitaliy">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">VITALIY</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo irina">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">IRINA</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo vlad">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">VLAD</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo sergey" width="50" height="50">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">SERGEY</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
+              <li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo savelii">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">SAVELII</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li><li class="team">
+                <div class="team-photo">
+                  <img class="team-photo__img" src="./images/person-1.jpg" alt="photo ilya">
+                </div>
+                <div class="team-info">
+                  <p class="team-info__name">ILYA</p>
+                  <p class="team-info__role">Developer</p>
+                  <ul class="list-social">
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Instagram">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Twitter">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Facebook">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="item-social">
+                        <a class="link-social" href="" aria-label="иконка Linkedin">
+                        <svg class="icons-social" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+              </li>
             </ul>
-            </div>
           </div>
+                
           
         </div>
       </div>
