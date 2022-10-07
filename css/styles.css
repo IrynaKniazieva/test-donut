@@ -120,6 +120,7 @@ margin: 0;
   background-color: #f7f5ec;
   width: 250px;
   padding: 15px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,9 +177,8 @@ margin: 0;
   margin-right: 0;
 }  
 
-.link-social:hover
- {
-  color: tomato;
+.link-social:hover {
+  color: #FF6B01;
 }
 
 .icons-social {
