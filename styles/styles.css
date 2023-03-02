@@ -39,9 +39,9 @@ margin: 0 auto;
     text-align: justify;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 40px;
-    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(34, 33, 33);
     background-color: #FFFFFF;
 }
 
@@ -54,7 +54,7 @@ margin: 0 auto;
     font-weight: 500;
     font-size: 35px;
     line-height: 25px;
-    color: grey;
+    color: rgb(186, 183, 183);
     margin-bottom: 50px;
 }
 
@@ -69,8 +69,8 @@ margin: 0 auto;
 .title {
     
     font-weight: 500;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     color: black;
     border-bottom: 1px solid grey;
     margin: 0;
@@ -88,9 +88,9 @@ margin: 0 auto;
     text-align: justify;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
-    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(34, 33, 33);
 
 }
 
@@ -108,8 +108,8 @@ margin-bottom: 10px;
     /* text-align: justify; */
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    color: grey;
+    font-size: 22px;
+    color: rgb(186, 183, 183);
     margin: 0;
 }
 
@@ -117,8 +117,8 @@ margin-bottom: 10px;
     text-align: justify;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    color: grey;
+    font-size: 22px;
+    color: rgb(186, 183, 183);;
     margin: 0;
     margin-left: 5px;
 }
@@ -126,9 +126,9 @@ margin-bottom: 10px;
     margin: 0;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
-    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(34, 33, 33);
 }
 
 .name {
@@ -136,9 +136,9 @@ margin-bottom: 10px;
     
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 40px;
-    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(34, 33, 33);
 }
 /* projects styles */
 .section{
@@ -248,7 +248,7 @@ border-bottom: 1px dotted grey;
 }
 
 .sidebar-section {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 30px;
 }
 
@@ -256,7 +256,12 @@ border-bottom: 1px dotted grey;
     margin-bottom: 50px;
 } */
 
-.item-icon {
+.item-link {
+    text-decoration-color: grey;
+}
+
+.item-icon,
+.item-link {
     display: flex;
     margin-bottom: 10px;
 }
@@ -270,41 +275,9 @@ margin-right: 10px;
     font-style: normal;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     color: #f9f9f9;
     border-bottom: 1px dotted grey;
 }
 
-.contact-type {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-right: 5px;
-}
-
-.contact-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    color: grey;
-}
-
-.tech-skills-list {
-    color: grey;
-    padding: 0;
-    margin-left: 15px;
-}
-
-
-
-.tech-skills-text {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-}
